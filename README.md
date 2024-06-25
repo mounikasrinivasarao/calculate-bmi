@@ -45,34 +45,32 @@ To set up the BMI Calculator on your local machine, follow these steps:
 
 Clone the repository:
 git clone https://github.com/yourusername/BMI-Calculator.git
+
 Navigate to the project directory:
 cd BMI-Calculator
+
 Install the required dependencies:
 pip install -r requirements.txt
+
 Usage
 To use the BMI Calculator, follow these steps:
 
 Run the BMI calculator script:
 python src/bmi_calculator.py
+
 Enter your weight and height when prompted:
-The calculator will prompt you to input your weight in kilograms and height in meters.
+The calculator will prompt you to input your kilogram weight and meters height.
+
 View your BMI and category:
 The calculator will display your calculated BMI and categorize it into underweight, normal weight, overweight, or obesity.
 Explanation of BMI
-BMI is a measure of body fat based on height and weight that applies to adult men and women. The formula for BMI is:
-BMI
-=
-weight (kg)
-height (m)
-2
-BMI= 
-height (m) 
-2
- 
-weight (kg)
-​
- 
 
+BMI measures body fat based on height and weight which applies to adult men and women. The formula for BMI is:
+
+BMI = weight (kg) height (m)/2
+BMI = height (m) 2
+ weight (kg)
+​
 BMI Categories
 Underweight: BMI < 18.5
 Normal weight: 18.5 ≤ BMI < 24.9
@@ -80,7 +78,7 @@ Overweight: 25 ≤ BMI < 29.9
 Obesity: BMI ≥ 30
 Detailed Features
 Input Validation
-The BMI Calculator ensures that users enter valid numerical values for weight and height. It handles common input errors and prompts the user to enter correct values if invalid data is detected.
+The BMI Calculator ensures that users enter valid numerical values for weight and height. It handles common input errors and prompts users to enter correct values if invalid data is detected.
 
 BMI Calculation
 The BMI is calculated using the standard formula. The result is rounded to two decimal places for clarity.
@@ -100,7 +98,7 @@ Future Enhancements
 The BMI Calculator project can be extended with the following features:
 
 Graphical User Interface (GUI): Develop a GUI using libraries like Tkinter or PyQt for a more user-friendly experience.
-Advanced Metrics: Include additional health metrics such as Body Fat Percentage, Basal Metabolic Rate (BMR), and Waist-to-Height Ratio.
+Advanced Metrics: Include additional health metrics such as Body Fat Percentage, Basal Metabolic Rate (BMR), and waist-to-high ratio.
 Mobile App: Create a mobile application for Android and iOS platforms to reach a wider audience.
 Multilingual Support: Add support for multiple languages to cater to non-English speaking users.
 Contributing
@@ -108,7 +106,7 @@ We welcome contributions to enhance the BMI Calculator project. If you have sugg
 
 Steps to Contribute:
 Fork the repository.
-Create a new branch for your feature or bugfix.
+Create a new branch for your feature or bug fix.
 Implement your changes.
 Commit and push your changes to your forked repository.
 Submit a pull request with a detailed description of your changes.
